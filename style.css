@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e3f2fd; 
+    color: #1a237e; 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+a  {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-item, .nav-option {
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-home:hover, .nav-option:hover {
+    background-color: #bbdefb; 
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.nav-home {
+    background-color: #1e88e5; 
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.section-intro, .section-content{
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.section-content {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center;
+    flex-grow: 1; 
+    align-items: center; 
+}
+
+.conversion-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%; 
+    max-width: 300px; 
+    align-items: center;
+    border: 1px solid #ccc;
+}   
+
+#table {
+    max-width: 65%;
+}
+
+.conversion-box form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conversion-box label {
+    width: 100%;
+    margin: 2px 0; 
+}
+
+.conversion-box input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 0;
+}
+
+.conversion-button {
+    background-color: #1e88e5; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0; 
+    width: 100%; 
+}
+
+.conversion-button:hover {
+    background-color: #1565c0; 
+}
+
+.result-box {
+    background-color: #e3f2fd; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 2px 0;
+    min-height: 40px;
+}
+
+table.result-box {
+    width: 100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+
+table.result-box td {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tool-item {
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 200px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: black;
+}
+
+.tool-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #1a237e;
+}
+
+.hero-section {
+    background-color: #1e88e5;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+}
+
+.section-content h2 {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    width: 100%;
+}

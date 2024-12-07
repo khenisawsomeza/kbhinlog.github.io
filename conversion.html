@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Conversion Tool</title>
+</head>
+<body>
+    <header>
+        <div class="nav-home">
+            <a href="index.html"><p class="nav-item">HOME</p></a>
+        </div>
+        <div class="nav-options">
+            <a href="conversion.html"><p class="nav-option">Conversion</p></a>
+            <a href="income-tax-calculator.html"><p class="nav-option">Income Tax Calculator</p></a>
+            <a href="factorial.html"><p class="nav-option">Factorial, Sum, Average</p></a>
+            <a href="simple-payroll.html"><p class="nav-option">Simple Payroll</p></a>
+        </div>
+    </header>
+    <div class="section-intro">
+        <h1>Assignment #1 - Conversion</h1>
+    </div>
+    <div class="section-content">
+            <div class="conversion-box">
+                <form>
+                    <label for="fahrenheit">Enter Fahrenheit:</label>
+                    <input type="number" id="fahrenheit">
+                    <button type="button" id="toCelsius" class="conversion-button">Convert to Celsius</button>
+                    <div class="result-box" id="celsiusResult"></div>
+                </form>
+            </div>
+            <div class="conversion-box">
+                <form>
+                    <label for="celsius">Enter Celsius:</label>
+                    <input type="number" id="celsius" required>
+                    <button type="button" id="toFahrenheit" class="conversion-button">Convert to Fahrenheit</button>
+                    <div class="result-box" id="fahrenheitResult"></div>
+                </form>
+            </div>
+            <div class="conversion-box">
+                <form>
+                    <label for="meters">Enter Meters:</label>
+                    <input type="number" id="meters">
+                    <button type="button" id="toFeet" class="conversion-button">Convert to Feet</button>
+                    <div class="result-box" id="feetResult"></div>
+                </form>
+            </div>
+            <div class="conversion-box">
+                <form>
+                    <label for="feet">Enter Feet:</label>
+                    <input type="number" id="feet">
+                    <button type="button" id="toMeters" class="conversion-button">Convert to Meters</button>
+                    <div class="result-box" id="metersResult"></div>
+                </form>
+        </div>
+    </div>
+    <footer>
+        <p>Khenyshi B. Hinlog</p>
+    </footer>
+    <script src="conversion.js"></script>
+</body>
+</html>

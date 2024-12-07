@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Factorial Tool</title>
+</head>
+<body>
+    <header>
+        <div class="nav-home">
+            <a href="index.html"><p class="nav-item">HOME</p></a>
+        </div>
+        <div class="nav-options">
+            <a href="conversion.html"><p class="nav-option">Conversion</p></a>
+            <a href="income-tax-calculator.html"><p class="nav-option">Income Tax Calculator</p></a>
+            <a href="factorial.html"><p class="nav-option">Factorial, Sum, Average</p></a>
+            <a href="simple-payroll.html"><p class="nav-option">Simple Payroll</p></a>
+        </div>
+    </header>
+    <div class="section-intro">
+        <h1>Assignment #3 - Factorial, Sum, Average</h1>
+    </div>
+    <div class="section-content">
+        <div class="conversion-box">
+                <form id="factorialForm">
+                    <label for="numberInput">Enter an integer value:</label>
+                    <input type="number" id="numberInput" required>
+                    <button type="button" id="factorial" class="conversion-button">Convert</button>
+                </form>
+
+        </div>
+        <div class="conversion-box">
+            <p> Results: </p>
+            <div class="result-box" id="factorialResult"></div>
+            <div class="result-box" id="sumResult"></div>
+            <div class="result-box" id="averageResult"></div>
+        </div>
+    </div>
+    <footer>
+        <p>Khenyshi B. Hinlog</p>
+    </footer>
+    <script src="factorial.js"></script>
+</body>
+</html>
